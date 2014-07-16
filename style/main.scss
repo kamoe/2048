@@ -9,15 +9,15 @@ $tile-border-radius: 3px;
 
 $mobile-threshold: $field-width + 20px;
 
-$text-color: #776E65;
-$bright-text-color: #f9f6f2;
+$text-color: #6E7765;
+$bright-text-color: #f6f9f2;
 
-$tile-color: #eee4da;
-$tile-gold-color: #edc22e;
+$tile-color: #e4eeda;
+$tile-gold-color: #c2ed2e;
 $tile-gold-glow-color: lighten($tile-gold-color, 15%);
 
 $game-container-margin-top: 40px;
-$game-container-background: #bbada0;
+$game-container-background: #adbba0;
 
 $transition-speed: 100ms;
 
@@ -25,7 +25,7 @@ html, body {
   margin: 0;
   padding: 0;
 
-  background: #faf8ef;
+  background: #f8faef;
   color: $text-color;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
@@ -338,10 +338,10 @@ hr {
   // Colors for all 11 states, false = no special color
   $special-colors: false false, // 2
                    false false, // 4
-                   #f78e48 true, // 8
-                   #fc5e2e true, // 16
-                   #ff3333 true, // 32
-                   #ff0000 true, // 64
+                   #8ef748 true, // 8
+                   #5efc2e true, // 16
+                   #33ff33 true, // 32
+                   #00ff00 true, // 64
                    false true, // 128
                    false true, // 256
                    false true, // 512
